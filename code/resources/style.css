@@ -1,0 +1,145 @@
+/* RESETS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rosybrown;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+/*VARIABLES*/
+
+:root {
+  --boxColor: red;
+  --image-border-top-bottom: 10px solid black;
+  --image-border-left-right: 20px solid black;
+  --card-shadow: 5px 5px 10px black;
+
+}
+
+.img-small {
+    width: 200px;
+    border: 5px solid black;
+}
+
+
+
+.float-left {
+    float: left;
+    margin-right: 10px;
+}
+
+.pos-abs {
+    position: absolute;
+}
+
+/*HEADER*/
+
+.nav__ul {
+    background-color: black;
+    height: 40px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__li {
+    transition: 100ms linear;
+}
+
+.nav__li:hover {
+    text-shadow: 3px 3px 5px;
+}
+
+
+
+.nav a {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+}
+
+.medium-image {
+    width: 600px;
+    border-top: var(--image-border-top-bottom);
+    border-bottom: var(--image-border-top-bottom);
+    border-left: var(--image-border-left-right);
+    border-right: var(--image-border-left-right);
+    position: relative;
+    left: 50%;
+    box-shadow: var(--card-shadow);
+}
+
+
+.header__main {
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.header__hr {
+    color: black;
+    border:3px solid black;
+    width: 50%;
+    margin: auto;
+}
+
+.header__hr::before {
+    content: 
+}
+
+/*MAIN*/
+
+
+/*FOOTER*/
+
+
+
+
+.threeBoxes {
+    display: flex;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 600px) {
+    .threeBoxes {
+        flex-direction: column;
+    }
+}
+@media (max-width: 900px) {
+    .threeBoxes {
+        font-size: 1.25rem;
+    }
+}
+
+.pBox {
+    margin: 20px;
+    padding: 30px;
+    flex: 1;
+    text-align: justify;
+    background-color: white;
+    box-shadow: var(--card-shadow);
+}
+
+
