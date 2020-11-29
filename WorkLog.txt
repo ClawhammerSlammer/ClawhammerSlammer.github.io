@@ -1,0 +1,2 @@
+-11/28/20 This repo was created to experiment with publishing a working website. Assum a very loose definition of working.
+		There is currently a directory, a README and, of course, this work log. Please use it. Please.
